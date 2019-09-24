@@ -1,0 +1,12 @@
+CCDM03:pw219312server ccdm03$ git log
+commit 78cda7d0657519f20a948ecd29af29372826044c (HEAD -> master)
+Author: marcolewis <marcolewis17@gmail.com>
+Date:   Fri Sep 13 12:32:32 2019 -0600
+
+    Cammbio de una linea en index
+
+commit d73c1d6cb360455d8f3caae557579f46fe356278
+Author: marcolewis <marcolewis17@gmail.com>
+Date:   Fri Sep 13 12:22:48 2019 -0600
+
+    Archivos iniciales
