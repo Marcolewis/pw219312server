@@ -1,0 +1,61 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0px auto; /*centrado de pantalla*/
+	max-width: 1078px; /*cliente*/
+	min-width: 1078px; 
+}
+
+header nav ul li{
+	border-bottom: 1px solid lightgray;
+	color: lightgray;
+	display: inline-block; /*rompe el modelo de caja y se pone una al lado de otro*/
+	font-size: 1.8em; /*busca quien tiene el font-size: el body lo tiene y hace el calculo de 1.8;*/
+	margin-right: 15px; /*sirve para dar espacio entre cajas*/
+	/*text-decoration: underline;*/
+}
+
+header nav{
+	/*text-align: center;*/ /*aliniamos el contenido del nav al centro, lo que esta dentro del nav y no en la caja*/
+	margin-left: 220px; /*sirve para mover afuerza el nav*/
+}
+
+#bgoffer{
+	left: -35px; /*sirve para moverlo a la izquierda cuando se utiliza el position: relative;*/
+	top: -410px; /*se mueve con respecto al body*/
+	position: relative; /*sirve para sacar los elemento de su caja y lo puedes mover fuera*/
+}
+
+#granthams{
+	margin-left: 25px; /*para que se mueva a la derecha*/	
+	margin-top: 25px; /*bajamos el logo 25 pixeles*/
+}
+
+header input{
+	float: right; /*que flote a la derecha*/
+	margin-right: -244px; /*sirve para quitarle margen derecho, se le reduce el espacio derecho*/
+	margin-top: 15px; /*sirve para que el input se baje*/
+}
+
+#paint{
+	float: right; /*que flote a la derecha*/
+}
+
+#primerSeccion{
+	height: 318px; 
+	margin-top: 60px; /*sirve para que toda la sesion se baje*/
+}
+
+#primerSeccion article{
+	display: inline-block; /*rompe el modelo de caja y se pone una al lado de otro*/
+	vertical-align: top;
+}
+
+#secc01art01{
+	margin-left: 30px;
+	width: 60%; /*ancho de la pantalla*/
+}
+
+#secc01art02{
+	margin-left: 50px; /*para que se separen la lista del body y la de la imagen*/
+	width: 30%; /*ancho de la pantalla*/
+}
