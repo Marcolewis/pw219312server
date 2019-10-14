@@ -1,0 +1,6 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0px auto; /*centrado de pantalla*/
+	max-width: 1078px; /*cliente*/
+	min-width: 1078px; 
+}
