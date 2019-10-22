@@ -2,5 +2,188 @@ body{
 	font-size: 16px; /*1em*/
 	margin: 0px auto; /*centrado de pantalla*/
 	max-width: 1078px; /*cliente*/
-	min-width: 1078px; 
+	min-width: 1078px;
+}
+
+
+header{
+	border-bottom: 2px gray dashed; /*sirve para poner la linea punteada*/
+	height: 230px; /*sirve para definir lo grande del header*/
+}
+
+header img{
+	margin-top: 25px; /*sirve para jalar las imagenes hacia abajo, darle un margen*/
+}
+
+ul{
+	list-style: none; /*le quitas las bolitas a las listas*/
+}
+
+header nav ul{
+	padding-bottom: -60px; /*le agrega padding al fondo*/
+	display: inline-block; /*hace que la lista se acomode horizontalmente*/
+	margin-left: -40px; /*le resta margen a las etiquetas y se recargan hacia la izquierda*/
+	font-size: 1.1em; /*tamaño de las letras de la lista*/
+	margin-top: 55px; /*agrega margen a la lista las separa del titulo, hacia abajo*/
+	margin-right: 35px; /*agrega margen a los elementos de la lista*/
+}
+
+#firstbike{
+
+}
+#mundo{
+	float: right;
+	margin-right: 10px; /*agrega margen a la derecha*/
+}
+#bandera{
+	float: right;
+	margin-right: 10px;
+}
+#logorojo{
+	float: right;
+	margin-right: 10px;
+}
+
+#buy{
+	position: relative; /*puedes mover la imagen por donde sea*/
+	left: 710px;
+	bottom: 85px;
+	width: 55px;
+	height: 55px;
+}
+
+#shop{
+	position: relative; /*puedes mover la imagen por donde sea*/
+	left: 715px;
+	bottom: 140px;
+	width: 160px;
+	height: 50px;
+}
+
+section article{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#art01
+{
+	font-family: "Century Gothic";
+	max-width: 600px;
+	min-width: 600px;
+	padding-top: 20px;
+	
+}
+
+
+#art02
+{
+	margin-top: 20px;
+	max-width: 600px;
+}
+
+#art02 img
+{
+	display: inline-block;
+	max-width: 280px;
+	min-width: 280px;
+	padding-right: 15px;
+	margin-top: 20px;
+}
+
+#art03
+{
+	margin-left: 30px;
+	max-width: 30%;
+	min-width: 30%;
+	max-height: 600px;
+	min-height: 600px;
+	margin-top: -90px;
+}
+
+#bike
+{  margin-top: 30px; 
+	padding-left: 5px;
+	max-height: 600px;
+	min-height: 600px;
+}
+#years
+{
+	position: relative;
+	top: 600px;
+	left: -15px;
+	height: 70px;
+	width: 140px;
+
+}
+
+#lineacorta
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border-bottom-style: dashed ;
+	border-bottom-width: 2px;
+	border-bottom-color: gray;
+}
+
+#linealarga
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border-bottom-style: dashed ;
+	border-bottom-width: 2px;
+	border-bottom-color: gray;
+}
+
+.verde
+{
+	color: rgb(115, 243, 61);
+}
+
+.nito
+{
+	font-weight: bold;	
+}
+
+.grande
+{
+	font-size: 4.2em;
+	font-family: "Century Gothic";
+}
+
+.gris
+{
+	color: rgb(136, 136, 136);
+}
+
+.chico
+{
+	font-size: 1.15em;
+}
+
+footer
+{
+	font-family: "Century Gothic";
+	font-size: 1.22em;
+	padding-top: 10px;
+	color:rgba(127, 127, 127, 1);;
+}
+footer article
+{
+	
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+	margin-left: -10px;
+	margin-right: 32px;
+}
+#linea
+{
+	margin-top: 4px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: lightgray;
+}
+#logofooter
+{
+
 }
