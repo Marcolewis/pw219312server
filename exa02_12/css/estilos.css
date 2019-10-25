@@ -1,0 +1,57 @@
+body{
+	border: red 5px solid; 
+	font-size: 16px; /*1em*/
+	margin: 0px auto; /*centrado de pantalla*/
+	max-width: 1500px; /*cliente*/
+	min-width: 150px; 
+}
+#primerSeccion article{
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+#persona{
+	position: relative;
+	float: left;
+	width: 200px;
+	margin-top: 30px;
+	margin-left: 70px;
+}
+	
+}
+#master article{
+	display: inline-block;
+	vertical-align: top;
+}
+#comi{
+	padding-right: 80px;
+	margin-top: 140px;
+	padding-left: 120px;
+	text-align: center;
+}
+
+#comi2{
+
+	margin-top: 140px;
+	margin-bottom: 227px;
+	text-align: center;
+}
+#secc01ar01 {
+	display: inline-block;
+	vertical-align: top;
+	border: black 2px solid;
+
+}
+#secc01ar02 {
+	margin-left:  -4px;
+	display: inline-block;
+	vertical-align: top;
+	border: blue 2px solid;
+
+}
+
+#segundaSeccion{
+	display: inline-block;
+	vertical-align: top;
+}
