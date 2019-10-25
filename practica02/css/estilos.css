@@ -7,6 +7,7 @@ body{
 
 header nav ul li{
 	border-bottom: 1px solid lightgray;
+	padding-bottom: 4px;
 	color: lightgray;
 	display: inline-block; /*rompe el modelo de caja y se pone una al lado de otro*/
 	font-size: 1.8em; /*busca quien tiene el font-size: el body lo tiene y hace el calculo de 1.8;*/
@@ -58,4 +59,48 @@ header input{
 #secc01art02{
 	margin-left: 50px; /*para que se separen la lista del body y la de la imagen*/
 	width: 30%; /*ancho de la pantalla*/
+} 
+#segundaSeccion article{
+	text-align: right;
+	padding-right: 122px;
 }
+
+#tercerSeccion article img{
+	vertical-align: middle; /*srive para alinear el texto a la mitad de la imagen*/
+}
+#tercerSeccion article{
+	display: inline-block;
+	vertical-align: top;
+	width: 23%;
+}
+#tercerSeccion article input[type="button"]{
+	background: #8BC500;
+	color: white;
+}
+#secc03art04{
+	padding-left: 24px;
+	padding-top: 40px;
+}
+.colorrosa{
+	color: #FF0099;
+}
+
+.letragrande{
+	font-size: 3.5em;
+}
+
+.colorazul{
+	color: #4267B3;
+}
+
+.colorverde{
+	color: #8BC500;
+}
+.nito{
+	font-weight: bold; /*fuente de la letra en negritas*/
+}
+
+.letramediana{
+	font-size: 2em;
+}
+
